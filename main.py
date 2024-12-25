@@ -1,7 +1,3 @@
-# A script to save and open tab groups on chrome
-# The script will read fron txt files in the saved-groups folder and then open them.
-# The user can also save or overwrite the txt files to open them later
-
 import os
 import time
 import json
