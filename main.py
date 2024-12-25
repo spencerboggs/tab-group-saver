@@ -22,8 +22,27 @@ def save_group():
     print('Group saved successfully!')
 
 def open_group():
-    group_name = input('Enter the name of the group to open: ')
-    with open(f'saved-groups/{group_name}.txt', 'r') as f:
+    files = os.listdir('saved-groups')
+    files = [file for file in files if file.endswith('.txt')]
+
+    if not files:
+        print('No groups saved yet')
+        return
+    
+    print('Select a group to open: ')
+    for i, file in enumerate(files):
+        print(f'{i + 1}. {file[:-4]}')
+
+    while True:
+        try:
+            choice = int(input('Enter the number of the group to open: '))
+            if choice < 1 or choice > len(files):
+                raise ValueError
+            break
+        except ValueError:
+            print('Invalid choice. Please enter a valid number')
+            
+    with open(f'saved-groups/{files[choice - 1]}', 'r') as f:
         group = json.loads(f.read())
     
     try:
