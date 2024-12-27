@@ -21,7 +21,8 @@ pip install -r requirements.txt
 ## Usage
 1. Clone the repo and navigate into the project directory:
 ```
-git clone https://github.com/spencerboggs/tab-group-saver.git cd tab-group-saver
+git clone https://github.com/spencerboggs/tab-group-saver.git 
+cd tab-group-saver
 ```
 
 2. Run the script:
