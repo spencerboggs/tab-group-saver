@@ -32,9 +32,10 @@ python main.py
 
 
 3. The script will prompt you with the following options:
-   - **1**: Save a new group of links
-   - **2**: Open a saved group of links
-   - **3**: Exit the program
+   - **1**: Save a new group of links by manually pasting them
+   - **2**: Save a new group of links automatically from yuor current browser
+   - **3**: Open a saved group of links
+   - **4**: Exit the program
 
 ### Saving a Group
 When selecting **1** to save a new group, you will be asked to enter the name of the group and then provide the links you want to include in that group. You can enter multiple links and press enter without typing anything to stop.
