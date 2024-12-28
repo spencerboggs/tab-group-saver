@@ -49,5 +49,5 @@ When selecting **3**, the script will display a list of all saved groups. You ca
 When selecting **4**, the script will automatically open your browser or use the browser that is currently open and enter the first link. You can then close the link and open the next one in the file by pressing `space`.
 
 ### Notes
-* Ensure that Google Chrome is open before using the "Open Group" function. The script will attempt to maximize the Chrome window and open the links in new tabs.
-* The saved groups are stored in a folder named `saved-groups`. Each group is saved as a `.txt` file containing the list of links in JSON format.
+* If you encounter any problems with opening a group try opening your browser manually and rerunning.
+* The saved groups are stored in a folder named `saved-groups`. Each group is saved as a `.txt` file containing the list of links.
