@@ -45,12 +45,7 @@ Alternatively, you can select **2** to automatically save the links currently op
 ### Opening a Group
 When selecting **3**, the script will display a list of all saved groups. You can choose which group to open by entering its corresponding number. It will open all links in that group in new tabs in your Google Chrome browser.
 
-You can also run the `open-links` script to open the links sequentially. The script will automatically open your browser or use the browser that is currently open and enter the first link. You can then close the link and open the next one in the file by pressing `space`.
-
-Run the open-links script:
-```
-python open-links.py
-```
+When selecting **4**, the script will automatically open your browser or use the browser that is currently open and enter the first link. You can then close the link and open the next one in the file by pressing `space`.
 
 ### Notes
 * Ensure that Google Chrome is open before using the "Open Group" function. The script will attempt to maximize the Chrome window and open the links in new tabs.
