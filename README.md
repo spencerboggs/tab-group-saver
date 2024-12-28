@@ -10,6 +10,7 @@ A Python script that allows you to save and open groups of links in Google Chrom
 
 ## Dependencies
 The project requires the following Python libraries:
+* `pyperclip`
 * `pyautogui`
 * `pygetwindow`
 
