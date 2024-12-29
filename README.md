@@ -39,14 +39,18 @@ python main.py
    - **4**: Exit the program
 
 ### Saving a Group
-When selecting **1** to save a new group, you will be asked to enter the name of the group and then provide the links you want to include in that group. You can enter multiple links and press enter without typing anything to stop.
-
-Alternatively, you can select **2** to automatically save the links currently open in your browser to a txt file.
+* When selecting **1** to save a new group, you will be asked to enter the name of the group and then provide the links you want to include in that group. You can enter multiple links and press enter without typing anything to stop.
+* Alternatively, you can select **2** to automatically save the links currently open in your browser to a txt file.
 
 ### Opening a Group
-When selecting **3**, the script will display a list of all saved groups. You can choose which group to open by entering its corresponding number. It will open all links in that group in new tabs in your Google Chrome browser.
+* When selecting **3**, the script will display a list of all saved groups. You can choose which group to open by entering its corresponding number. It will open all links in that group in new tabs in your Google Chrome browser.
+* When selecting **4**, the script will automatically open your browser or use the browser that is currently open and enter the first link. You can then close the link and open the next one in the file by pressing `space`.
 
-When selecting **4**, the script will automatically open your browser or use the browser that is currently open and enter the first link. You can then close the link and open the next one in the file by pressing `space`.
+### Editing a Group
+* Selecting **5** will allow you to type in links to add to a tab group that already exists.
+* Selecting **6** will automatically add any links you currently have open to a tab group.
+* Selecting **7** will allow you to remove links from a tab group.
+* Selecting **8** will remove any duplicate links from a tab group.
 
 ### Notes
 * If you encounter any problems with opening a group try opening your browser manually and rerunning.
